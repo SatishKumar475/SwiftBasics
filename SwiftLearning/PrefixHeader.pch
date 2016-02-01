@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  SwiftLearning
+//
+//  Created by satish on 05/11/15.
+//  Copyright (c) 2015 Satish. All rights reserved.
+//
+
+#ifndef SwiftLearning_PrefixHeader_pch
+#define SwiftLearning_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

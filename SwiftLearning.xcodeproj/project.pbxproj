@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75095FD71BE217B600498A54 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 75095FD61BE217B600498A54 /* 123.png */; };
+		752333CF1BE73FCE0005E039 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752333CE1BE73FCE0005E039 /* ViewController1.swift */; };
 		75246B461BDF3C3B0088AB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75246B451BDF3C3B0088AB1A /* AppDelegate.swift */; };
 		75246B481BDF3C3B0088AB1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75246B471BDF3C3B0088AB1A /* ViewController.swift */; };
 		75246B4B1BDF3C3B0088AB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75246B491BDF3C3B0088AB1A /* Main.storyboard */; };
 		75246B4D1BDF3C3B0088AB1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75246B4C1BDF3C3B0088AB1A /* Images.xcassets */; };
 		75246B501BDF3C3B0088AB1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75246B4E1BDF3C3B0088AB1A /* LaunchScreen.xib */; };
 		75246B5C1BDF3C3B0088AB1A /* SwiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75246B5B1BDF3C3B0088AB1A /* SwiftLearningTests.swift */; };
+		7534A18B1BEC7465005660E6 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7534A18A1BEC7465005660E6 /* ViewController2.swift */; };
+		7534A18D1BEC74D4005660E6 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7534A18C1BEC74D4005660E6 /* ViewController3.swift */; };
+		757610331C0EED89004D7DFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757610321C0EED89004D7DFD /* CoreGraphics.framework */; };
+		757610351C0F207E004D7DFD /* MBPrograssBar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757610341C0F207E004D7DFD /* MBPrograssBar1.swift */; };
+		7582030A1C103FD600C39529 /* First.html in Resources */ = {isa = PBXBuildFile; fileRef = 758203091C103FD600C39529 /* First.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75095FD61BE217B600498A54 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		752333CE1BE73FCE0005E039 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		75246B401BDF3C3B0088AB1A /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75246B441BDF3C3B0088AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75246B451BDF3C3B0088AB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,12 @@
 		75246B551BDF3C3B0088AB1A /* SwiftLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75246B5A1BDF3C3B0088AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75246B5B1BDF3C3B0088AB1A /* SwiftLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningTests.swift; sourceTree = "<group>"; };
+		7525219C1BEB2A6700B013DA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7534A18A1BEC7465005660E6 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		7534A18C1BEC74D4005660E6 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		757610321C0EED89004D7DFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		757610341C0F207E004D7DFD /* MBPrograssBar1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBPrograssBar1.swift; sourceTree = "<group>"; };
+		758203091C103FD600C39529 /* First.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = First.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757610331C0EED89004D7DFD /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +72,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75095FD81BE219F200498A54 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				75095FD61BE217B600498A54 /* 123.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		75246B371BDF3C3B0088AB1A = {
 			isa = PBXGroup;
 			children = (
+				757610321C0EED89004D7DFD /* CoreGraphics.framework */,
 				75246B421BDF3C3B0088AB1A /* SwiftLearning */,
 				75246B581BDF3C3B0088AB1A /* SwiftLearningTests */,
 				75246B411BDF3C3B0088AB1A /* Products */,
@@ -77,8 +102,13 @@
 		75246B421BDF3C3B0088AB1A /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				758203091C103FD600C39529 /* First.html */,
 				75246B451BDF3C3B0088AB1A /* AppDelegate.swift */,
 				75246B471BDF3C3B0088AB1A /* ViewController.swift */,
+				752333CE1BE73FCE0005E039 /* ViewController1.swift */,
+				7534A18A1BEC7465005660E6 /* ViewController2.swift */,
+				7534A18C1BEC74D4005660E6 /* ViewController3.swift */,
+				757610341C0F207E004D7DFD /* MBPrograssBar1.swift */,
 				75246B491BDF3C3B0088AB1A /* Main.storyboard */,
 				75246B4C1BDF3C3B0088AB1A /* Images.xcassets */,
 				75246B4E1BDF3C3B0088AB1A /* LaunchScreen.xib */,
@@ -90,6 +120,8 @@
 		75246B431BDF3C3B0088AB1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7525219C1BEB2A6700B013DA /* PrefixHeader.pch */,
+				75095FD81BE219F200498A54 /* Images */,
 				75246B441BDF3C3B0088AB1A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +188,8 @@
 		75246B381BDF3C3B0088AB1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Satish;
 				TargetAttributes = {
@@ -192,6 +226,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7582030A1C103FD600C39529 /* First.html in Resources */,
+				75095FD71BE217B600498A54 /* 123.png in Resources */,
 				75246B4B1BDF3C3B0088AB1A /* Main.storyboard in Resources */,
 				75246B501BDF3C3B0088AB1A /* LaunchScreen.xib in Resources */,
 				75246B4D1BDF3C3B0088AB1A /* Images.xcassets in Resources */,
@@ -212,8 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7534A18D1BEC74D4005660E6 /* ViewController3.swift in Sources */,
+				752333CF1BE73FCE0005E039 /* ViewController1.swift in Sources */,
+				7534A18B1BEC7465005660E6 /* ViewController2.swift in Sources */,
 				75246B481BDF3C3B0088AB1A /* ViewController.swift in Sources */,
 				75246B461BDF3C3B0088AB1A /* AppDelegate.swift in Sources */,
+				757610351C0F207E004D7DFD /* MBPrograssBar1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +312,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rajani Vemuri (JF54AX3898)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rajani Vemuri (JF54AX3898)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -294,6 +335,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "53d38307-76e8-4504-bd11-524839401aad";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +359,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rajani Vemuri (JF54AX3898)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rajani Vemuri (JF54AX3898)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -332,6 +375,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "53d38307-76e8-4504-bd11-524839401aad";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -342,9 +386,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rajani Vemuri (JF54AX3898)";
 				INFOPLIST_FILE = SwiftLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppsharkExamples.examples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "53d38307-76e8-4504-bd11-524839401aad";
 			};
 			name = Debug;
 		};
@@ -352,9 +401,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rajani Vemuri (JF54AX3898)";
 				INFOPLIST_FILE = SwiftLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppsharkExamples.examples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "53d38307-76e8-4504-bd11-524839401aad";
 			};
 			name = Release;
 		};
@@ -362,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rajani Vemuri (JF54AX3898)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -373,6 +428,7 @@
 				INFOPLIST_FILE = SwiftLearningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "53d38307-76e8-4504-bd11-524839401aad";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLearning.app/SwiftLearning";
 			};
 			name = Debug;
@@ -381,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rajani Vemuri (JF54AX3898)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -388,6 +445,7 @@
 				INFOPLIST_FILE = SwiftLearningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "53d38307-76e8-4504-bd11-524839401aad";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLearning.app/SwiftLearning";
 			};
 			name = Release;
@@ -411,6 +469,7 @@
 				75246B611BDF3C3B0088AB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75246B621BDF3C3B0088AB1A /* Build configuration list for PBXNativeTarget "SwiftLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +478,7 @@
 				75246B641BDF3C3B0088AB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let sTabbarController = UITabBarController()
+sTabbarController.inputView?.backgroundColor = UIColor.redColor()
+        let sview1 = ViewController()
+        let sview2 = ViewController1()
+        let sview4 = ViewController3()
+        let sview3 = ViewController2()
+        let scontrollers = [sview1,sview2,sview4,sview3]
+        sTabbarController.viewControllers = scontrollers
+        window?.rootViewController = sTabbarController
+        window?.backgroundColor = UIColor.orangeColor()
+//        let sfirstImage = UIImage(named: "123.png")
+//        let ssecondImage = UIImage(named: "123.png")
+        sview1.tabBarItem = UITabBarItem(title: "View1", image:nil , tag: 1)
+        sview2.tabBarItem = UITabBarItem(title: "view2", image: nil, tag: 2)
+         sview4.tabBarItem = UITabBarItem(title: "view4", image: nil, tag: 4)
+          sview3.tabBarItem = UITabBarItem(title: "view3", image: nil, tag: 3)
         return true
     }
 
